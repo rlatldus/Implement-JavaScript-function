@@ -1,0 +1,101 @@
+@font-face {
+  font-family: '양진체';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff')
+    format('woff');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+.text-box {
+  width: 100vw;
+
+  /* height: 100vh; */
+  /* align-items: center; */
+}
+
+svg.title {
+  width: 100vw;
+  height: 22vw;
+}
+/* 와 대박 높이를 vw로 맞추다니 */
+svg > text {
+  font-family: '양진체';
+  font-size: 17vw;
+  stroke-width: 3px;
+  /* stroke: rgb(255, 119, 0); */
+  stroke-dasharray: 800px;
+}
+.a {
+  fill: transparent;
+  animation: SIYEON 1s linear;
+  animation-fill-mode: forwards;
+}
+text.a:nth-child(1) {
+  animation-delay: 0s;
+}
+text.a:nth-child(2) {
+  animation-delay: 0.5s;
+}
+text.a:nth-child(3) {
+  animation-delay: 1s;
+}
+text.a:nth-child(4) {
+  animation-delay: 1.5s;
+}
+text.a:nth-child(5) {
+  animation-delay: 2s;
+}
+text.a:nth-child(6) {
+  animation-delay: 2.5s;
+}
+text.a:nth-child(7) {
+  animation-delay: 3s;
+}
+text.a:nth-child(8) {
+  animation-delay: 3.5s;
+}
+text.a:nth-child(9) {
+  animation-delay: 4s;
+  /* overflow-x: hidden; */
+}
+.hi {
+  width: 100vw;
+  height: 22vw;
+
+  /* text-align: center; */
+  /* z-index: 200; */
+}
+text.b {
+  fill: rgb(106, 153, 194);
+  animation: SIDE 3s linear;
+  animation-iteration-count: infinite;
+}
+@keyframes SIYEON {
+  0% {
+    stroke: transparent;
+    stroke-dashoffset: 800px;
+  }
+  100% {
+    stroke-dashoffset: 0px;
+    fill: rgb(126, 243, 220);
+    stroke: rgb(0, 21, 255);
+  }
+}
+@keyframes SIDE {
+  0% {
+    stroke-dashoffset: 800px;
+    stroke: rgb(0, 255, 170);
+  }
+  50% {
+    stroke-dashoffset: 0px;
+  }
+  100% {
+    stroke-dashoffset: 800px;
+    stroke: rgb(47, 0, 255);
+  }
+}

@@ -67,6 +67,7 @@ svg는css에서 기존에 만든 것과 다르게  x와 y를 지정해야 한다
 
 <br>
 <!-- Todolist -->
+
 ### Result <a href="https://rlatldus.github.io/SVG_practice/2-Todo/">(<u>Link:Click</u>👆🏻)</a>
 
 |                                                           Result                                                           | Description                                                                                                                                                                                                                                                                                                                        |
@@ -77,8 +78,9 @@ svg는css에서 기존에 만든 것과 다르게  x와 y를 지정해야 한다
 <br>
 
 
-<br>
 <!-- Rock-Paper-Scissors -->
+<br>
+
 ### Result <a href="https://rlatldus.github.io/SVG_practice/4-Rock-Paper-Scissors/">(<u>Link:Click</u>👆🏻)</a>
 
 |                                                           Result                                                           | Description                                                                                                                                                                                                                                                                                                                        |
@@ -91,6 +93,7 @@ svg는css에서 기존에 만든 것과 다르게  x와 y를 지정해야 한다
 
 <br>
 <!-- Modal -->
+
 ### Result <a href="https://rlatldus.github.io/SVG_practice/5-Modal/">(<u>Link:Click</u>👆🏻)</a>
 
 |                                                           Result                                                           | Description                                                                                                                                                                                                                                                                                                                        |
@@ -102,6 +105,7 @@ svg는css에서 기존에 만든 것과 다르게  x와 y를 지정해야 한다
 
 <br>
 <!-- Modal -->
+
 ### Result <a href="https://rlatldus.github.io/SVG_practice/6-Clock/">(<u>Link:Click</u>👆🏻)</a>
 
 |                                                        Result                                                           | Description                                                                                                                                                                                                                                                                                                                        |
